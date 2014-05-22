@@ -1,18 +1,22 @@
 # VS-Pi: Installation and Development
 
-For any issues or updates to this page, please visit [our discussion forums](http://discuss.villagescience.org/latest) or [contact us](http://villagescience.wpengine.com/contact/).
+For any issues or updates to this page, please visit [our discussion forums](http://discuss.villagescience.org/latest) or [contact us](http://villagescience.org/contact/).
 
 ## Required Hardware
-For full details, please visit the [Technology page](http://villagescience.wpengine.com/technology/).
-
+For full details, please visit the [Technology page](http://villagescience.org/technology/). For a fully functional VS-Pi server you will need:
 * Raspberry Pi Model B
 * 32GB SD card
 * USB WiFi adapter
-* Keyboard/mouse/display
-* Ethernet cable
+* Micro USB power cord
+* Raspberry Pi case
+
+For the initial installation you will need:
+* Keyboard
+* Display
+* Ethernet cable to an internet connection
 
 ## Installation Steps
-Once you have the required hardware, follow the instructions below to set up a fresh installation on the Raspberry Pi. *Please note that this installation does not include any of the educational content that is intended for use as part of the [iQuEST pilot project](http://villagescience.wpengine.com/iquest-pilot-project/).*
+Once you have the required hardware, follow the instructions below to set up a fresh installation on the Raspberry Pi. *Please note that this installation does not include any of the educational content that is intended for use as part of the [iQuEST pilot project](http://villagescience.org/iquest-pilot-project/).*
 
 1. Install Raspberry Pi’s New Out Of Box Software (NOOBS) to SD card following [these instructions](http://www.raspberrypi.org/downloads).  
 2. Boot Raspberry Pi with the ethernet cable connected.
@@ -20,9 +24,9 @@ Once you have the required hardware, follow the instructions below to set up a f
 	* `git clone https://github.com/villagescience/vspi.git && sudo bash ./vspi/setup.sh`
 	* You can see what the Setup script is doing at the bottom of this script.
 4. Try connecting a laptop (client) to the open ‘VS-Pi Connect’ Wi-Fi hotspot (server):
-5. After connecting, try navigating to [http://vspi.local/](http://vspi.local/).
+5. After connecting, try navigating to [http://vspi/](http://vspi/).
 6. You can also connect to Raspberry Pi through SSH:
-	* `ssh -l pi 10.0.10.1` (the VSPi installation codes a static IP address for the WiFi adapter).
+	* `ssh -l pi 10.0.10.1` (the VS-Pi installation codes a static IP address for the WiFi adapter).
 	* username=pi
 	* password=raspberry
 
@@ -31,8 +35,8 @@ All of our development is done under our [Git Repository](https://github.com/vil
 
 1. Create a GitHub account and [set up Git](https://help.github.com/articles/set-up-git)! This is where all the magic happens.
 2. Follow the ‘Fork a Repo’ instructions for the Village Science ‘vspi‘ and ‘wordpress‘ repositories.
-	* The VSPi repository is used for initial installation and pushing updates.
-	* The WordPress repository is used to house the latest free educational content.
+	* The VS-Pi repository is used for initial installation and pushing updates.
+	* The WordPress repository is used to house the latest free educational framework.
 
 ## How To Get Involved
 Village Science is always looking for ways to improve!
@@ -40,8 +44,8 @@ Village Science is always looking for ways to improve!
 1. Discuss VS-Pi with our online community.
 	* General VS-Pi discussion can be found on our [discussion forums](http://discuss.villagescience.org/latest). Please note, you will need to register to *post* on the Village Science message boards. You do not need an account to simply *view* the forums.
 2. Find issues that you can help fix.
-	Individual bugs or desired improvements are tracked in each ‘Issues’ section of the Git repository (e.g. [VSPI issues](https://github.com/villagescience/vspi/issues) and [WordPress issues](https://github.com/villagescience/wordpress/issues)).
+	Individual bugs or desired improvements are tracked in each ‘Issues’ section of the Git repository (e.g. [VS-Pi issues](https://github.com/villagescience/vspi/issues) and [WordPress issues](https://github.com/villagescience/wordpress/issues)).
 	
-Our [Get Involved](http://villagescience.wpengine.com/get-involved/) page shows the developer skills Village Science currently needs.
+Our [Get Involved](http://villagescience.org/get-involved/) page shows the developer skills Village Science currently needs.
 
-And as always, please feel free to [contact us](http://villagescience.wpengine.com/contact/)!
+And as always, please feel free to [contact us](http://villagescience.org/contact/)!
